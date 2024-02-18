@@ -8,7 +8,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Lineage stuff.
+# Inherit some common ProjectMatrixx stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from stone device
@@ -20,6 +20,15 @@ TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_DISABLE_EPPE := true
 TARGET_DEBLOAT := true
+SYSTEM_OPTIMIZE_JAVA := true
+SYSTEMUI_OPTIMIZE_JAVA := true
+MATRIXX_BUILD_TYPE := Official
+MATRIXX_MAINTAINER := ARIJIT-SAHA
+MATRIXX_CHIPSET := SM6375
+MATRIXX_BATTERY := 5000mah
+MATRIXX_DISPLAY := 1080x2400
+WITH_GMS := true
+EXTRA_GAPPS := false
 
 # Charging Animation
 TARGET_USE_PIXEL_CHARGER := true
