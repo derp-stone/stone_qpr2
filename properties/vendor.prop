@@ -222,7 +222,7 @@ ro.surface_flinger.set_touch_timer_ms=200
 ro.surface_flinger.use_content_detection_for_refresh_rate=true
 
 # Graphics
-ro.hwui.render_ahead=5
+ro.hwui.render_ahead=23
 debug.sf.enable_egl_image_tracker=1
 debug.hwui.skia_atrace_enabled=false
 debug.renderengine.backend=skiaglthreaded
