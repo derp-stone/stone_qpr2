@@ -1,3 +1,6 @@
+# Clone Kernel Source
+git clone https://github.com/Stone-Trees/kernel_xiaomi_sm6375.git -b 14 kernel/xiaomi/sm6375
+
 # Clone Prebuilt Kernel
 git clone https://github.com/kamikaonashi/device_xiaomi_stone-kernel.git -b 14 device/xiaomi/stone-kernel
 
