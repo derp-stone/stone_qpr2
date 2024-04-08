@@ -2,7 +2,7 @@
 git clone https://github.com/crdroidandroid/android_kernel_qcom_sm8350.git -b 14.0 kernel/xiaomi/sm6375
 
 # Clone Prebuilt Kernel
-git clone https://github.com/kamikaonashi/device_xiaomi_stone-kernel.git -b 14 device/xiaomi/stone-kernel
+git clone https://github.com/crdroidandroid/android_kernel_xiaomi_stone.git -b 14.0 device/xiaomi/stone-kernel
 
 # Clone Vendor
 git clone https://github.com/kamikaonashi/vendor_xiaomi_stone_unified.git -b 14 vendor/xiaomi
