@@ -165,6 +165,9 @@ persist.vendor.btstack.enable.lpa=true
 vendor.qcom.bluetooth.soc=cherokee
 ro.vendor.fm.use_audio_session=true
 
+# Volume steps
+ro.config.media_vol_steps=25
+
 # Blur
 ro.launcher.blur.appLaunch=0
 
