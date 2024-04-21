@@ -47,6 +47,9 @@ BOARD_SUPPORTS_SOUND_TRIGGER := true
 # Board Info
 TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 
+# Disable sparse for ext images
+TARGET_USERIMAGES_SPARSE_EXT_DISABLED := true
+
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := holi
 TARGET_NO_BOOTLOADER := true
