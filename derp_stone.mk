@@ -22,7 +22,6 @@ TARGET_DISABLE_EPPE := true
 TARGET_DEBLOAT := true
 SYSTEM_OPTIMIZE_JAVA := true
 SYSTEMUI_OPTIMIZE_JAVA := true
-WITH_GMS := true
 
 # Charging Animation
 TARGET_USE_PIXEL_CHARGER := true
@@ -32,5 +31,6 @@ PRODUCT_NAME := derp_stone
 PRODUCT_DEVICE := stone
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Xiaomi
+DERP_BUILDTYPE := Official
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
