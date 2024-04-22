@@ -8,7 +8,7 @@ git clone https://github.com/kamikaonashi/device_xiaomi_stone-kernel.git -b 14 d
 git clone https://github.com/Arijit78/vendor_xiaomi_stone.git -b 14 vendor/xiaomi
 
 # Clone v4a
-git clone --depth=1 https://github.com/TogoFire/packages_apps_ViPER4AndroidFX.git -b v4a packages/apps/ViPER4AndroidFX
+#git clone --depth=1 https://github.com/TogoFire/packages_apps_ViPER4AndroidFX.git -b v4a packages/apps/ViPER4AndroidFX
 
 # Clone hardware xiaomi
 git clone https://github.com/Evolution-X/hardware_xiaomi.git -b udc hardware/xiaomi
