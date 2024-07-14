@@ -253,6 +253,7 @@ debug.egl.hw=0
 debug.mdpcomp.logs=0
 debug.hwui.use_hint_manager=true
 debug.sf.enable_advanced_sf_phase_offset=1
+debug.sf.enable_gl_backpressure=0
 debug.sf.enable_transaction_tracing=false
 debug.sf.hw=0
 debug.sf.latch_unsignaled=1
