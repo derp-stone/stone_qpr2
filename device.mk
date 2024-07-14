@@ -131,7 +131,7 @@ PRODUCT_PACKAGES += \
     libcamera2ndk_vendor \
     libion.vendor \
     libgui_vendor \
-    libpng.vendor
+    libpng.vendor \
     vendor.qti.hardware.camera.postproc@1.0.vendor
 
 # Camera GrapheneCamera
