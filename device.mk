@@ -706,5 +706,10 @@ PRODUCT_PACKAGES += \
     product_charger_res_images \
     product_charger_res_images_vendor
 
+# WiFi firmware symlinks
+PRODUCT_PACKAGES += \
+    firmware_wlan_mac.bin_symlink \
+    firmware_WCNSS_qcom_cfg.ini_symlink
+
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/stone/stone-vendor.mk)
