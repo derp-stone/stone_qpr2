@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from moonstone_global V816.0.6.0.UMPMIXM release-keys
+# All unpinned blobs below are extracted from moonstone V816.0.7.0.UMPMIXM release-keys
 # ADSP
 vendor/bin/adsprpcd
 vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc
