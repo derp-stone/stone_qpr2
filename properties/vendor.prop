@@ -245,10 +245,10 @@ debug.renderengine.backend=skiaglthreaded
 ro.config.avoid_gfx_accel=true
 debug.hwui.renderer=skiagl
 renderthread.skia.reduceopstasksplitting=true
+debug.hwui.skia_atrace_enabled=false
 
 # Graphics
 debug.sf.enable_egl_image_tracker=1
-debug.hwui.skia_atrace_enabled=false
 debug.egl.hw=0
 debug.mdpcomp.logs=0
 debug.hwui.use_hint_manager=true
@@ -261,7 +261,6 @@ debug.sf.predict_hwc_composition_strategy=1
 debug.sf.treat_170m_as_sRGB=1
 debug.sf.auto_latch_unsignaled=0
 debug.sf.disable_client_composition_cache=1
-debug.sf.frame_rate_multiple_threshold=60
 persist.sys.sf.color_saturation=1.0
 persist.sys.sf.color_mode=0
 persist.sys.sf.native_mode=0
