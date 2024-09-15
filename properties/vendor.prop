@@ -242,7 +242,6 @@ debug.sf.defer_refresh_rate_when_off=1
 
 # SkiaGL Threaded
 debug.renderengine.backend=skiaglthreaded
-ro.config.avoid_gfx_accel=true
 debug.hwui.renderer=skiagl
 renderthread.skia.reduceopstasksplitting=true
 debug.hwui.skia_atrace_enabled=false
