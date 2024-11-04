@@ -23,6 +23,8 @@ TARGET_DEBLOAT := true
 # Charging Animation
 TARGET_USE_PIXEL_CHARGER := true
 
+PREBUILT_KERNEL := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := derp_stone
 PRODUCT_DEVICE := stone
