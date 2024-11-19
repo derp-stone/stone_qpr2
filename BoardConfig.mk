@@ -194,7 +194,7 @@ BOARD_USES_QCOM_HARDWARE := true
 TARGET_BOARD_PLATFORM := holi
 
 # Power
-TARGET_TAP_TO_WAKE_NODE := /sys/devices/platform/soc/4c88000.i2c/i2c-2/2-0038/fts_gesture_mode
+TARGET_TAP_TO_WAKE_NODE := /sys/bus/i2c/devices/2-0038/fts_gesture_mode
 
 # Properties
 TARGET_ODM_PROP += $(DEVICE_PATH)/properties/odm.prop
