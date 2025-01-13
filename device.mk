@@ -153,7 +153,7 @@ PRODUCT_PACKAGES += \
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
-PRODUCT_AAPT_PREF_CONFIG := xhdpi
+PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # Dex
 PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
@@ -212,9 +212,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libdrm.vendor
 
-# DT2W Services
-PRODUCT_PACKAGES += \
-    DT2WServiceSM6375
 
 # Dolby
 PRODUCT_COPY_FILES += \
@@ -447,6 +444,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 # RRO Overlays
 PRODUCT_PACKAGES += \
     NfcOverlay \
+    BatteryOverlayStone \
     FrameworksResOverlayStone \
     SettingsOverlayStone \
     SystemUIOverlayStone \
